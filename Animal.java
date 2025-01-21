@@ -3,17 +3,11 @@ import java.util.ArrayList;
 public class Animal {
     private String name;
     private int age;
-    private static int catCount;
-    private static int dogCount;
-    private static int animalCount;
-    private static ArrayList<Animal> animals;
+    private static int catCount = 0;
+    private static int dogCount = 0;
+    private static int animalCount = 0;
+    private static ArrayList<Animal> animals = new ArrayList<>();
 
-    public Animal(){
-        catCount = 0;
-        dogCount = 0;
-        animalCount=0;
-        animals = new ArrayList<>();
-    }
 
     public Animal(String name, int age) {
         this.name = name;
