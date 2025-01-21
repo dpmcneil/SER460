@@ -4,10 +4,13 @@ public class Main {
         Animal kennel = new Animal();
         showAnimals(kennel);
         Dog dog1 = new Dog("Logan", 10);
+        dog1.makeTalk();
         showAnimals(kennel);
         Dog dog2 = new Dog("Buster", 13);
         showAnimals(kennel);
+        dog2.makeTalk();
         Cat cat1 = new Cat("Storm", 16);
+        cat1.makeTalk();
         showAnimals(kennel);
     }
 
